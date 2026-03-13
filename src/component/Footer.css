@@ -1,0 +1,197 @@
+.footer-wrapper{
+background:#030c2a;
+color:white;
+padding:80px 8% 2px;
+font-family:Arial;
+}
+
+/* CTA BOX */
+
+.cta-box{
+background:#f4b400;
+border-radius:40px;
+padding:70px 40px;
+text-align:center;
+margin-bottom:80px;
+position:relative;
+}
+
+.cta-box h2{
+font-size:40px;
+margin-bottom:15px;
+color:#000;
+}
+
+.cta-box p{
+color:#222;
+max-width:650px;
+margin:auto;
+margin-bottom:25px;
+}
+
+.cta-points{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-bottom:30px;
+flex-wrap:wrap;
+}
+
+.cta-points span{
+display:flex;
+align-items:center;
+gap:8px;
+color:#333;
+}
+
+.cta-points img{
+width:18px;
+}
+
+.cta-btn{
+background:#030c2a;
+color:white;
+border:none;
+padding:14px 28px;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+}
+
+/* DECORATION */
+
+.star1{
+position:absolute;
+left:40px;
+top:120px;
+width:20px;
+opacity:0.4;
+}
+
+.star2{
+position:absolute;
+right:80px;
+top:160px;
+width:20px;
+opacity:0.4;
+}
+
+/* FOOTER GRID */
+
+.footer-grid{
+display:grid;
+grid-template-columns:2fr 1fr 1fr 1.5fr;
+gap:40px;
+margin-bottom:40px;
+}
+
+.footer-about p{
+color:#aaa;
+margin:15px 0;
+line-height:1.6;
+}
+
+.logo{
+font-size:28px;
+}
+
+.social{
+display:flex;
+gap:15px;
+}
+
+.social img{
+width:13px;
+cursor:pointer;
+}
+
+/* LINKS */
+
+ul{
+list-style:none;
+padding:0;
+}
+
+ul li{
+margin:10px 0;
+color:#aaa;
+cursor:pointer;
+}
+
+/* SUBSCRIBE */
+
+.subscribe{
+display:flex;
+margin-top:10px;
+}
+
+.subscribe input{
+flex:1;
+padding:12px;
+border:none;
+border-radius:10px 0 0 10px;
+}
+
+.subscribe button{
+background:#f4b400;
+border:none;
+padding:12px 16px;
+border-radius:0 10px 10px 0;
+}
+
+.subscribe img{
+width:16px;
+}
+
+.agree{
+font-size:12px;
+color:#aaa;
+display:block;
+margin-top:10px;
+}
+
+/* BOTTOM */
+
+.footer-bottom{
+border-top:1px solid #1e2b52;
+padding-top:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:#aaa;
+}
+
+.address{
+display:flex;
+align-items:center;
+gap:8px;
+}
+
+.address img{
+width:16px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+.footer-bottom{
+flex-direction:column;
+gap:10px;
+text-align:center;
+}
+
+.cta-points{
+flex-direction:column;
+gap:10px;
+}
+
+}
+.footer-logo{
+width:160px;
+margin-bottom:10px;
+}

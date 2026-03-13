@@ -1,0 +1,68 @@
+.hero{
+  height:520px;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  padding:80px;
+  color:white;
+  position:relative;
+}
+
+/* Dark Overlay */
+.hero::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.55);
+  z-index:1;
+}
+
+/* Content above overlay */
+.hero-content{
+  position:relative;
+  z-index:2;
+  max-width:650px;
+}
+
+.tagline{
+  font-size:14px;
+  letter-spacing:2px;
+  /* margin-bottom:2px; */
+}
+
+.hero h1{
+  font-size:52px;
+  line-height:1.2;
+  margin-bottom:20px;
+}
+
+.description{
+  font-size:17px;
+  line-height:1.6;
+  margin-bottom:30px;
+}
+
+.hero-btn{
+  background:#f5a623;
+  border:none;
+  padding:14px 26px;
+  border-radius:8px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.clients{
+  display:flex;
+  justify-content:center;
+  padding:30px;
+  background:#f6f6f6;
+}
+
+.clients img{
+  width:75%;
+  max-width:900px;
+}

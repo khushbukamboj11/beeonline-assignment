@@ -1,0 +1,102 @@
+/* TECHNOLOGY PARTNERS */
+
+.tech-partners{
+padding:20px 8%;
+text-align:center;
+}
+
+.tech-partners h2{
+color:black;
+font-size:40px;
+margin-bottom:40px;
+}
+
+.tech-partners span{
+color:#f4b400;
+}
+
+/* GRID */
+
+.partners-grid{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:25px;
+}
+
+/* CARD */
+
+.partner-card{
+padding:55px;
+border-radius:10px;
+border:3px solid #f4b400;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.partner-card img{
+height:50px;
+object-fit:contain;
+}
+
+/* TOOLS */
+
+.tools{
+/* background:#f5f5f5; */
+padding:40px 8%;
+text-align:center;
+}
+
+.tools h2{
+font-size:38px;
+margin-bottom:40px;
+}
+
+/* GRID */
+
+.tools-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+.tool-card{
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.tool-card img{
+height:40px;
+object-fit:contain;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1000px){
+
+.partners-grid{
+grid-template-columns:repeat(3,1fr);
+}
+
+.tools-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:600px){
+
+.partners-grid{
+grid-template-columns:1fr;
+}
+
+.tools-grid{
+grid-template-columns:1fr;
+}
+
+}
