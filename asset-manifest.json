@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/beeonline-assignment/static/css/main.d1a2427f.css",
+    "main.js": "/beeonline-assignment/static/js/main.f0828e3c.js",
+    "static/js/453.59d12085.chunk.js": "/beeonline-assignment/static/js/453.59d12085.chunk.js",
+    "static/media/Hero.jpg": "/beeonline-assignment/static/media/Hero.56d4de98c8df3aea51b2.jpg",
+    "static/media/blog-2.png": "/beeonline-assignment/static/media/blog-2.c3181308cc77072f2652.png",
+    "static/media/blog-1.png": "/beeonline-assignment/static/media/blog-1.90018c67c64157bece1b.png",
+    "static/media/blog-3.png": "/beeonline-assignment/static/media/blog-3.83b7c3bd71c71697217a.png",
+    "static/media/image-4.png": "/beeonline-assignment/static/media/image-4.d293b85ec8dd0525fc45.png",
+    "static/media/image-2.png": "/beeonline-assignment/static/media/image-2.501444a9348472ff5966.png",
+    "static/media/image-1.png": "/beeonline-assignment/static/media/image-1.50d30b854c8ec067742a.png",
+    "static/media/image-3.png": "/beeonline-assignment/static/media/image-3.28768edddde414d0c8f0.png",
+    "static/media/company logo.png": "/beeonline-assignment/static/media/company logo.ffdcec5bfd449df78056.png",
+    "static/media/image-5.png": "/beeonline-assignment/static/media/image-5.d531c0429c5e50363d25.png",
+    "static/media/google.png": "/beeonline-assignment/static/media/google.bc3f89115ae5b19abed8.png",
+    "static/media/aws .png": "/beeonline-assignment/static/media/aws .1927ed80736074c698c3.png",
+    "index.html": "/beeonline-assignment/index.html",
+    "main.d1a2427f.css.map": "/beeonline-assignment/static/css/main.d1a2427f.css.map",
+    "main.f0828e3c.js.map": "/beeonline-assignment/static/js/main.f0828e3c.js.map",
+    "453.59d12085.chunk.js.map": "/beeonline-assignment/static/js/453.59d12085.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1a2427f.css",
+    "static/js/main.f0828e3c.js"
+  ]
+}
